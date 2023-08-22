@@ -11,7 +11,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class Minigame extends JavaPlugin {
 
     private ArenaManager arenaManager;
-
+    //placeholder
     @Override
     public void onEnable() {
         ConfigManager.setupConfig(this);
