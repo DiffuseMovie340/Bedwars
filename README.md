@@ -1,2 +1,2 @@
 # Bedwars
-Bedwars plugin for Minecraft
+A simple Bedwars plugin to use in Minecraft.
