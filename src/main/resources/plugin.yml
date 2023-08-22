@@ -1,0 +1,8 @@
+name: Minigame
+version: '${project.version}'
+main: com.diffusemovie.minigame.Minigame
+api-version: 1.19
+authors: [ DiffuseMovie340 ]
+description: Minigame plugin
+commands:
+  arena:
