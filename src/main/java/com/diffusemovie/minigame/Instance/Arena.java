@@ -53,6 +53,7 @@ public class Arena {
             players.clear();
         }
         sendTitle("", "");
+
         state = GameState.RECRUTING;
         countdown.cancel();
         countdown = new Countdown(minigame, this);
