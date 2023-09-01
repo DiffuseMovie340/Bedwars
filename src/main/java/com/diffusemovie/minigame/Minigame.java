@@ -17,8 +17,6 @@ public final class Minigame extends JavaPlugin {
         ConfigManager.setupConfig(this);
         arenaManager = new ArenaManager(this);
 
-
-
         Bukkit.getPluginManager().registerEvents(new ConnectListener(this), this);
         Bukkit.getPluginManager().registerEvents(new GameListener(this), this);
 

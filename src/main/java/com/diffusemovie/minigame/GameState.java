@@ -4,9 +4,12 @@ import org.bukkit.ChatColor;
 
 public enum GameState {
 
+
     RECRUTING(ChatColor.GREEN + "Recruiting players"),
     COUNTDOWN(ChatColor.YELLOW + "Countdown"),
-    LIVE(ChatColor.RED + "Game in progress");
+    LIVE(ChatColor.RED + "Game in progress"),
+    KICKED(ChatColor.WHITE + "Kicked from game! Try joining another.");
+
 
     private String display;
     GameState(String display){
